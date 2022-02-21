@@ -264,6 +264,10 @@ padding: 5em;
 .article-card img{
 max-width: 25em;
 }
+.article3-image{
+    max-width: 25em; 
+    align-self:auto;
+    } 
 
 .articles-header{
     display: block;
