@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang= "en">
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        [class*="col-"] {
+          float: left;
+          padding: 15px;
+        }
+        
+        html {
+          font-family: "Lucida Sans", sans-serif;
+        }
+        
+        .header {
+          background-color: #9933cc;
+          color: #ffffff;
+          padding: 15px;
+        }
+        
+        .menu ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        .menu li {
+          padding: 8px;
+          margin-bottom: 7px;
+          background-color: #33b5e5;
+          color: #ffffff;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        
+        .menu li:hover {
+          background-color: #0099cc;
+        }
+        
+        .aside {
+          background-color: #33b5e5;
+          padding: 15px;
+          color: #ffffff;
+          text-align: center;
+          font-size: 14px;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+
+        /* For mobile phones: */
+[class*="col-"] {
+width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+</style>
+   </style>
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width ,intial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Profile of Joel Konopo</title>
+        <title> Profile of Joel Konopo</title>
         <link rel="stylesheet" type="text/css "href = "style.css">
+        
     </head>
 
     <body>
@@ -17,11 +111,12 @@
             <a href="articles.html"><div class="menu">Articles</div></a>
             <a href="map.html"><div class="menu">Map</div></a>
         </div>
+        </div>
 
         <div class="header"> <h1> Joel Konopo</h1></div>
  <div class="profile">
             <div class="profile-image">
-                <img src="profile-image.png">
+                <img src="profile-image.png" alt="author smiling">
             </div>
             <div class="about-text">
                 <p> <b> About me: </b><br>
@@ -29,7 +124,6 @@
                     Joel Konopo is an investigative journalist from Botswana with vast experience in print media and currently<br> an MSc Data Journalism candidate at Columbia Graduate School Journalism in New York. I am <br>former editor of <a href="https://www.botswanaguardian.co.bw/" target="blank">Botswana Guardian newspaper</a> and co-founder of <a href="https://inkjournalism.org/" target="blank">INK Centre for Investigative <br>Journalism</a>, a vibrant non-profit investigative journalism newsroom. In 2016 I worked on the <br><a href="https://www.botswanaguardian.co.bw/" target="blank">Panama Papers</a>, lifting the lid on how the rich and powerful in Botswana use tax havens to hide<br> their wealth. I am also a 2019 <a href="https://jsk.stanford.edu/news/2018/jsk-fellowships-names-class-of-2018-19/" target="blank"> John S. Knight Journalism</a> Fellow at Stanford University, where I <br>explored the intersection between AI and journalism.
                     </p>
             </div>
-</div>
           
       <!-- 
 <div class="links-header">
@@ -55,21 +149,22 @@
                 <p> <a href="https://jsk.stanford.edu/news/2018/jsk-fellowships-names-class-of-2018-19/">	4.	JSK Fellowship
                 </a></p>
             </div>
+            
+            
 
 
 -->
 
 <div class="social-media clearfix">
     <a href="https://www.facebook.com/jkonopo" target="blank">
-        <img src="fb.png">
+        <img src="fb.png" alt="facebook icon">
     </a>
     <a href="https://twitter.com/JKonopo" target="blank">
-        <img src="twitter.png">
+        <img src="twitter.png" alt="twitter icon">
     </a>
     <a href="https://www.linkedin.com/in/joel-konopo-265626127/?originalSubdomain=bw" target="blank">
-        <img src="linkedin.png">
+        <img src="linkedin.png" alt="linkedin icon">
     </a>
-</div>
 </div>
 
     </body>
