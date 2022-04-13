@@ -34,6 +34,20 @@ width: 100vw;
     left: 37%;
     font-weight: 600;
 }
+
+.menu-goback
+{
+    display:flex;
+     flex-direction: row;
+     padding: 1.6em;
+     font-size: 1.5em;
+     justify-content: right;
+     margin-bottom: 0em;
+     margin-right: 3em;
+     position: relative;
+     left: 37%;
+     font-weight: 600;
+}
 a{
     color: rgb(0, 0, 0);
     text-decoration-style: none;
@@ -247,12 +261,14 @@ justify-content:left;
 align-items: left;
 flex-direction: row;
 padding: 2em;
+text-align: center;
 
 }
 .article-card{
     max-width: 30%;
     float: left;
     margin-right: 2em;
+    text-align: center;
 
 }
 
@@ -318,6 +334,7 @@ max-width: 20em;
     .article-card{
         max-width: 100%;
         margin-right: 8em;
+        text-align: center;
         
     
     }
