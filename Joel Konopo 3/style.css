@@ -1,0 +1,403 @@
+
+
+
+body {
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 0;
+font-size: 18px;
+box-sizing: border-box;
+justify-content: center;
+min-height: 100vh;
+background: lightgrey;
+line-height: 1.8em;
+width: 100vw;
+
+
+}
+
+
+
+.menu{
+    
+    text-transform: uppercase;
+   
+    
+}
+.menu-container{
+   display:flex;
+    flex-direction: row;
+    padding: 1.6em;
+    font-size: 1.5em;
+    justify-content: right;
+    margin-bottom: 0em;
+    position: relative;
+    left: 37%;
+    font-weight: 600;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration-style: none;
+    text-decoration: none;
+    border-radius: .2em;
+    padding: .2em;
+    margin: .4em;
+   
+}
+.menu a:hover{
+   
+}
+
+}
+.profile{
+    display: flex;
+    justify-content: center;
+
+}
+.main-container{
+display: flex;
+width: 80vw;
+font-size:0.9em;
+
+}
+.main-container .menu-container > a:hover{
+
+ background-color: rgb(161, 59, 102);
+    color: white;
+}
+
+.about-text{
+    padding: 2em;
+    display: flex;
+    position: absolute;
+    top: 13em;
+    left: 25em;
+    font-size: 1.1em;
+}
+
+.profile-image{
+    display: flex;
+    position: relative;
+    margin-left: 4em;
+  
+}
+.profile-image img{
+    border-radius: 2em;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    left: 42%;
+    text-transform: uppercase;
+    font-weight: regular;
+}
+
+.work-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-content h1{
+margin-top: 1.2em;
+margin-bottom: 1.2em;
+}
+
+.links img{
+    width: 23em;
+    display: inline-block;
+    position: relative;
+    padding: 1.2em;
+    
+    
+}
+.links >p{
+position: relative;
+left: 2em;
+margin: 0;
+right: 2em;
+
+
+}
+.link-pages{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 1em;
+    box-sizing: content-box;
+
+}
+
+.works{
+    position: relative;
+    right: 5em;
+
+}
+
+
+.stories-header{
+    text-align: center;
+    position: relative;
+    left: 1em;
+    margin-top: 3em;
+    text-transform: uppercase;
+}
+
+.btn{
+    padding: .8em;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    align-items: center;
+    background-color: crimson;
+
+   
+}
+.social-media img{
+    width: 3em;
+    align-items:flex-end;
+    float: right;
+    margin: .8em;
+    box-shadow: 5px  5px 10px rgba(41, 41, 41,.4);
+    border-radius: 20px;
+    position: relative;
+    right: 5em;
+   
+}
+
+.social-media{
+    width: 100%;
+    
+}
+
+.clearfix{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.useful-links a{
+    color: rgb(167, 60, 60);
+
+}
+
+.useful-links{
+    position: relative;
+    left: 33%;
+    top: -60px;
+    margin: 0;
+}
+
+.links-header{
+    position: relative;
+    left:34%;
+    top: -80px;
+}
+.links >p{
+
+}
+
+.cv-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+
+}
+
+.left-grid{
+    width:30vw;
+    background: rgb(189, 116, 116);
+    padding: 1em;
+    margin: 0;
+}
+
+.right-grid{
+    min-width:70vw;
+    background: white;
+    padding: 1em;
+}
+
+.right .cv-header-sub{
+font-style: italic;
+}
+.cv-profile-pic {
+width: 15em;
+}
+
+.left-grid >h3{
+    position: relative;
+    left: 15em;
+    top: auto;
+}
+.cv-years{
+    position: relative;
+    left: 20em;
+    top: auto;
+}
+
+a:hover{
+    color: rgb(182, 74, 55);
+}
+
+.site-container{
+width: 100vw;
+height: auto;
+justify-content:left;
+align-items: left;
+flex-direction: row;
+padding: 2em;
+
+}
+.article-card{
+    max-width: 30%;
+    float: left;
+    margin-right: 2em;
+
+}
+
+.article-card p{
+    line-height: 1.2em;
+}
+
+.card-category{
+    position: relative;
+}
+
+.article-card img{
+max-width: 20em;
+}
+.article3-image{
+    max-width: 50em; 
+    align-self:auto;
+    } 
+
+.articles-header{
+    display: block;
+    text-align-last: center;
+    margin-top: 1.8em;
+    margin-bottom: 0;
+}
+
+.card-excerpt span{
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px)  {
+    /* start of medium tablet styles */
+    .article-card{
+        max-width: 40%;
+        margin-right: 4em;
+        
+    
+    }
+    }
+
+/* For Mobile View*/
+
+
+@media screen and (max-width: 479px) {
+    .menu-container{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        left: 0;
+    }
+    .menu{
+        position: relative;
+        justify-content: center;
+        
+        
+    }
+
+    .article-card{
+        max-width: 100%;
+        margin-right: 8em;
+        
+    
+    }
+    
+.header{
+    display: flex;
+    position: relative;
+    left: 19%;
+    text-transform: uppercase;
+}
+
+.about-text{
+    padding: 2em;
+    display: flex;
+    position: absolute;
+    top: 42em;
+    left: 3em;
+    font-size: 1.1em;
+}
+.social-media {
+    width: 3em;
+    position: 1500px;
+    left: 300px;
+    float: none;
+    
+}
+
+.link-pages{
+    display: block;
+    width: 100vw;
+    position: relative;
+    left: 0;
+    right: 5em;
+    
+    margin-bottom: 1em;
+    box-sizing: content-box;
+
+}
+
+.works{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+
+}
+
+body{
+    font-size: 15px;
+}
+.useful-links{
+    display: block;
+    position: relative;
+    left: 5em;
+    top:400px;
+    
+}
+
+.links-header{
+    display: block;
+    position: relative;
+    left: 5em;
+ top:400px;
+}
+
+.article-card{
+    /*width: 60vw;*/
+    float: left;
+    margin-right: 3em;
+
+
+}
+.cv-years{
+    position: relative;
+    left: 3em;
+    top: auto;
+}
+
+
+
+
+
+}
